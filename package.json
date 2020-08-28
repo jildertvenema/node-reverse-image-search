@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jildertvenema/node-reverse-image-search"
   }
 }
