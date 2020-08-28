@@ -1,6 +1,6 @@
 {
   "name": "node-reverse-image-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A free solution for reverse image search using Google (Node.js only)",
   "main": "index.js",
   "scripts": {

@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 module.exports = (async (imageUrl, callback) => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.goto('https://www.google.com/searchbyimage?image_url=' + encodeURIComponent(imageUrl));
 
